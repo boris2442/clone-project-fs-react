@@ -1,0 +1,4 @@
+@import "tailwindcss";
+*, ::after, ::before{
+    font-family: "Poppins";
+}
