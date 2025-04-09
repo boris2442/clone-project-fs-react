@@ -8,7 +8,7 @@ const Navigation = () => {
                 </li>
              
                 <li>
-                    <NavLink to="/about" className="hover:text-green-400">A propos</NavLink>
+                    <NavLink to="/about" className={({isActive})=>`hover:text-green-400 ${isActive ? 'nav-active':'' }`}>A propos</NavLink>
                 </li>
             </ul>
         </div>
