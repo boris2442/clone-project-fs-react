@@ -12,7 +12,7 @@ const Countries = () => {
     return (
         <div>
             <h1 className="text-3xl text-center">COUNTRIES</h1>
-            <ul className="flex flex-wrap gap-3 mx-auto w-100vw justify-around">
+            <ul className="flex flex-wrap gap-3 mx-auto w-[100vw] justify-around">
                 {/* {
                     data.map((country, index) => (<li key={index}>{country.translations.fra.common}</li>)
                     )

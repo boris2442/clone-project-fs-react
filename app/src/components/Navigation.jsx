@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 const Navigation = () => {
     return (
         <div className="navigation">
-            <ul className="flex gap-2">
+            <ul className="flex gap-2 pl-8">
                 <li>
                     <NavLink to="/" className={({isActive})=>`hover:text-green-400 ${isActive ? 'nav-active':'' }`}>Accueil</NavLink>
                 </li>
