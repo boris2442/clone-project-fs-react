@@ -2,3 +2,28 @@
 *, ::after, ::before{
     font-family: "Poppins";
 }
+.nav-active{
+    position:relative;
+
+}
+.nav-active::after{
+    content:"";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    border-radius: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-animation: anim 0.3s ease-in-out;
+    animation:anim 0.6s ease forwards;
+}
+@-webkit-keyframes anim{
+    to{
+        width: 100%;
+    }
+}
+@keyframes anim {
+    to{
+        width: 100%;
+    }
+}
