@@ -4,11 +4,11 @@ const Navigation = () => {
         <div className="navigation">
             <ul className="flex gap-2">
                 <li>
-                    <NavLink to="/" className={({isActive})=>`hover:text-blue-400 ${isActive ? 'nav-active':'' }`}>Accueil</NavLink>
+                    <NavLink to="/" className={({isActive})=>`hover:text-green-400 ${isActive ? 'nav-active':'' }`}>Accueil</NavLink>
                 </li>
              
                 <li>
-                    <NavLink to="/about" className="hover:text-blue-400">A propos</NavLink>
+                    <NavLink to="/about" className="hover:text-green-400">A propos</NavLink>
                 </li>
             </ul>
         </div>

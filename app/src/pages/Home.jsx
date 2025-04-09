@@ -1,8 +1,10 @@
+import Logo from "../components/Logo";
 import Navigation from "../components/Navigation";
 
 const Home = () => {
     return ( 
         <div>
+            <Logo/> 
             <Navigation/>   
             <h1 className="bg-cyan-300">home page</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati sunt labore consequatur praesentium veritatis quasi quae optio odit velit vero!</p>
