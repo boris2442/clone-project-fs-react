@@ -46,15 +46,15 @@ const About = () => {
                     <h2 className="text-2xl text-center font-semibold mb-4">Timeline du projet</h2>
                     <div className="flex flex-col gap-4 md:grid md:grid-cols-2 md:gap-8">
                         <div className="flex flex-col items-center">
-                            <span className="font-bold text-xl">Janvier 2024</span>
+                            <span className="font-bold text-xl">Decembre 2024</span>
                             <p className="text-gray-700">Début du projet, exploration de l'API des pays.</p>
                         </div>
                         <div className="flex flex-col items-center">
-                            <span className="font-bold text-xl">Mars 2024</span>
+                            <span className="font-bold text-xl">Mars 2025</span>
                             <p className="text-gray-700">Développement du filtre de recherche par continent et ajout du slider.</p>
                         </div>
                         <div className="flex flex-col items-center">
-                            <span className="font-bold text-xl">Mai 2024</span>
+                            <span className="font-bold text-xl">Avril 2025</span>
                             <p className="text-gray-700">Ajout de la page "À propos" et des fonctionnalités de partage.</p>
                         </div>
                     </div>
