@@ -6,7 +6,7 @@ const Logo = () => {
         <div clasName="w-[100%] fixed top-0 left-0" >
             <div className="md:w-full mx-auto flex items-center justify-center mt-5 shadow-2xl lg:w-[400px] rounded-4xl p-4 gap-2">
             <img src="logo.webp" alt="logo simo" className="h-[50px] w-[90px] object-cover" />
-            <h2 className="md:text-2xl text-green-500 font-weight-bold lg:3xl uppercase">React project</h2>
+            <h2 className="md:text-[16px] text-green-500 font-bold lg:3xl uppercase ">Explorer les pays du monde</h2>
             </div>
         </div>
     );

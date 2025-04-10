@@ -7,6 +7,7 @@ const Home = () => {
         <div>
             <Logo/> 
             <Navigation/>  
+     
             <Countries/>     
             
         </div>

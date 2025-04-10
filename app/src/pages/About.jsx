@@ -65,12 +65,14 @@ const About = () => {
                     <h2 className="text-2xl font-semibold mb-4">Contact & Réseaux sociaux</h2>
                     <p className="text-lg text-gray-700 mb-4">Vous pouvez nous suivre ou nous contacter ici :</p>
                     <div className="flex justify-center gap-6">
-                        <a href="https://github.com/boris2442" target="_blank" className="text-xl text-blue-500 hover:text-blue-700">
+                        <a href="https://github.com/boris2442" target="_blank" className="text-xl text-green-700 hover:text-green-400">
                             GitHub
                         </a>
-                        <a href="https://linkedin.com" target="_blank" className="text-xl text-blue-500 hover:text-blue-700">
+                        <a href="https://linkedin.com" target="_blank" className="text-xl text-green-700 hover:text-green-400">
                             LinkedIn
                         </a>
+                        <a href="https://wa.me/679135177" target="_blank" rel="noopener noreferrer" className="text-xl text-green-700 hover:text-green-400">Whatsapp</a>
+                 <a href="mailto:aubinborissimotsebo@gmail.com" target="_blank" rel="noopener noreferrer" className="text-xl text-green-700 hover:text-green-400">Gmail</a>
                     </div>
                 </section>
             </div>
