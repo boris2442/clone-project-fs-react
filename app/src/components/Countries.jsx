@@ -34,7 +34,7 @@ const Countries = () => {
       {/* Icône burger visible uniquement sur mobile */}
       <div className="md:hidden flex justify-end px-4 py-2">
         <button onClick={() => setMenuOpen(!menuOpen)} className="text-green-600 text-2xl">
-          <i className="fa fa-bars"></i>
+          <i className="fa-solid fa-bars"></i>
         </button>
       </div>
 
