@@ -13,7 +13,7 @@ const Card = ({country}) => {
             alt= {"image de" + country.translations.fra.common}
             // alt={"drapeau du " + country.translations.fra.common} 
              className="w-[100%] h-[100%] object-cover rounded" />
-             <div className="absolute w-[100%] h-[100%] top-[0%]  bg-green-400 flex flex-col justify-center items-center gap-2 opacity-0 hover:opacity-100 text-white font-weight-bold  
+             <div className="absolute  opacity-100 w-[100%] h-[100%] top-[0%]  md:bg-green-400 flex flex-col justify-center items-center gap-2 md:opacity-0 md:hover:opacity-100 text-[#333] font-bold  
              ">
             <h2>Pays:{country.translations.fra.common}</h2>
             <h4>Capital:{country.capital}</h4>
